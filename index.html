@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Pessoal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+            
+        });
+    </script>
+     <style>
+        /* Estilos opcionais para o container das partículas */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
+    <div id="particles-js"></div>
     <header class="cabeçalho">
         <div class="perfil"> 
             <div class="foto"><img src="./Imagens/avatar.png" alt=""></div>
@@ -14,19 +31,20 @@
         </div>
         <nav class="menu-geral">
             <ul class="menu">
-                <li class="links"><a href="">Home</a></li>
-                <li class="links"><a href="">Contact</a></li>
-                <li class="links"><a href="">Project</a></li>
-                <li class="links"><a href="">About</a></li>
+                <li class="links"><a href="">Início</a></li>
+                <li class="links"><a href="">Sobre</a></li>
+                <li class="links"><a href="">Habilidades</a></li>
+                <li class="links"><a href="">Projetos</a></li>
+                <li class="links"><a href="">Contato</a></li>
             </ul>
         </nav>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellima.mb11@gmail.com" target="_blank"><img class ="email" src="./Imagens/o-email.png" alt=""></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=daniellima.mb11@gmail.com" target="_blank"><img class ="email" src="./Imagens/lampada-roxa.png" alt=""></a>
     </header>
         <main class="home">
             <nav class="rede-sociais">
-                <li><a href="" ><img class="icone-movel1" src="./Imagens/logotipo-do-linkedin.png" alt="" ></a>
-                <li><a href="" ><img class="icone-movel1" src="./Imagens/placa-do-github.png" alt="" ></a></li>
-                <li><a href="" ><img class="icone-movel" src="./Imagens/enviar.png" alt="" ></a></li>
+                <li><a href="" ><img class="icone-movel" src="./Imagens/linkedin-azul.png" alt="" ></a>
+                <li><a href="" ><img class="icone-movel1" src="./Imagens/git-azul.png" alt="" ></a></li>
+                <li><a href="" ><img class="icone-movel2" src="./Imagens/email-azul.png" alt="" ></a></li>
             </nav>
             <section class="descricao">
                 <div class="quadrado"><h1 class="text">HEY, I'M</h1></div>
@@ -35,9 +53,10 @@
                 <p class="escrita">Sou um Desenvolvedor Web, com amplo conhecimento <br> em banco de dados SQL, buscando constantemente <br> agregar valor e promover os projetos <br> nos quais estou envolvido.</p>
                 <a href=""><div class="projeto-button">Habilidades</div></a>
             </section>    
-            <figure><img class="foto-principal" src="./Imagens/avatar.png" alt=""></figure>
+            <figure><img class="foto-principal" src="./Imagens/imagem-principal.svg" alt=""></figure>
         </main>  
         <main>
+        
             
         </main>
 
